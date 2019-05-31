@@ -18,4 +18,4 @@ const BotSettings = require("./botsettings.json")
         }
     });
 
-});bot.login(BotSettings.Bottoken)
+});bot.login(BotSettings.process.env.Bottoken)
