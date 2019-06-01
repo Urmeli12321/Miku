@@ -32,4 +32,4 @@ const BotSettings = require("./botsettings.json")
         message.reply(`hier deine :chocolate_bar: `) 
     }
 }
-});bot.login(BotSettings.Bottoken)
+});bot.login(BotSettings.process.env.Bottoken)
