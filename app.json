@@ -1,0 +1,20 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "",
+  "env": {
+    "Bottoken": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "Miku",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
